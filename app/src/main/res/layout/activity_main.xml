@@ -17,6 +17,13 @@
 
     <Button
         android:onClick="doMagic"
+        android:text="Create file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="readMagic"
+        android:text="Read file"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 </LinearLayout>
